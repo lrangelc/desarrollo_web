@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: yellow;
+  min-height: 10vh;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  background: red;
+  flex-shrink: 0;
+  min-height: 10vh;
+}
